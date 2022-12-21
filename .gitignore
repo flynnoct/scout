@@ -1,2 +1,4 @@
 masscan-output.json
 target_ip.txt
+data
+nmap_result
