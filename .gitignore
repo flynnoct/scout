@@ -1,7 +1,6 @@
-masscan-output.json
 target_ip.txt
 data
 nmap_result*
 logs
-masscan-output_166.111.json
-target_ip_166.111.txt
+masscan-output*
+target_ip_*
