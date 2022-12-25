@@ -4,3 +4,4 @@ nmap_result*
 logs
 masscan-output*
 target_ip_*
+stats.json
