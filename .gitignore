@@ -5,3 +5,4 @@ logs
 masscan-output*
 target_ip_*
 stats.json
+__pycache__

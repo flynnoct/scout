@@ -23,6 +23,7 @@ print("Start time: %s" % start_time.strftime("%Y-%m-%d, %H:%M:%S"))
 for ip in tqdm(ip_list):
     if (ip_list.index(ip) % args.total) == args.process:
         cmd = "nmap -O -A -sV -Pn --max-retries 2 --host-timeout 300 --script=vulscan/vulscan.nse --script-args vulscandb=cve.csv %s > ./%s/%s.txt" % (ip, args.output, ip)
+        # cmd = "nmap -p445 --script=smb-vuln-ms17-010 %s > ./%s/%s.txt" % (ip, args.output, ip)
         os.system(cmd)
 
 
